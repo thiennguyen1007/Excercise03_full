@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Excercise03.View.Excs1"
+             BackgroundColor="#127ac7"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Welcome to Xamarin" FontSize="30" FontAttributes="Bold" TextColor="White"
+               HorizontalOptions="Center"/>
+        <Label Text="Cross-platform label properties" FontSize="18" TextColor="White"
+               HorizontalOptions="Center"/>
+        <Button Text="Login" BackgroundColor="#1dabf0" TextColor="White" CornerRadius="10" Clicked="Button_Clicked"/>
+        <Button Text="Register" BackgroundColor="#1dabf0" TextColor="White" CornerRadius="10"/>
+        <Label Text="Click Login to go Page of Excs2" Opacity="0.5"/>
+    </StackLayout>
+</ContentPage>

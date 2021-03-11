@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Excercise03.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout Spacing="20" Margin="20,0,20,0" VerticalOptions="Center">
+        <Button Text="24 StackLayout" Clicked="Button_Clicked" BackgroundColor="Orange"/>
+        <Button Text="27 StackLayout" Clicked="Button_Clicked_1" BackgroundColor="Orchid"/>
+        <Button Text="30 StackLayout"  Clicked="Button_Clicked_2" BackgroundColor="OrangeRed"/>
+    </StackLayout>
+
+</ContentPage>

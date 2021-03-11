@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Excercise03.View.Page027_Excs1"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#354242">
+
+    <Grid RowDefinitions="2.5*,1.5*,1.5*,1.5*,1.5*,1.5*,2*,0.05*" ColumnDefinitions="*,*,*" Margin="10,0,10,0"
+          Padding = "40" RowSpacing = "10" ColumnSpacing = "10">
+        <Label Text="1234" FontSize = "50" TextColor="White"  Grid.ColumnSpan="3" Grid.Row="0"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+        <Button Text="1" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="0" Grid.Row="1" CornerRadius="10"/>
+        <Button Text="2" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="1" Grid.Row="1" CornerRadius="10"/>
+        <Button Text="3" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="2" Grid.Row="1" CornerRadius="10"/>
+        <Button Text="4" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="0" Grid.Row="2" CornerRadius="10"/>
+        <Button Text="5" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="1" Grid.Row="2" CornerRadius="10"/>
+        <Button Text="6" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="2" Grid.Row="2" CornerRadius="10"/>
+
+
+        <Button Text="7" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="0" Grid.Row="3" CornerRadius="10"/>
+        <Button Text="8" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="1" Grid.Row="3" CornerRadius="10"/>
+        <Button Text="9" BackgroundColor="White" TextColor="Black" FontSize = "30" Grid.Column="2" Grid.Row="3" CornerRadius="10"/>
+
+        <Button Text="0" BackgroundColor="White" TextColor="Black" Grid.Row="4" Grid.Column="1" CornerRadius="10" FontSize = "30"/>
+        <Button Text="Dial" BackgroundColor="#96ca2d" Grid.Row="5" Grid.ColumnSpan="3" CornerRadius="20" Clicked="Button_Clicked"/>
+        <Label Text="Clicked dial to go 027_excs2" TextColor="White" Grid.Row="6" Grid.ColumnSpan="3" Opacity="0.5"/>
+    </Grid>
+</ContentPage>
